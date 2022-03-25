@@ -1,12 +1,13 @@
 import './Shop.css';
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
+import Cart from '../Cart/Cart';
 
 // Shop component for loading thte data from public folder [data.json]
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
-    console.log(cart);
+    // console.log(cart);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -30,7 +31,7 @@ const Shop = () => {
                 }
             </div>
             <div className='cart-container'>
-                <h2>Selected Watches</h2>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
