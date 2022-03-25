@@ -31,8 +31,32 @@
     },
     {
         "id": 6,
-        "name": "Curren Ladies Watch 6",
-        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch6.png",
+        "name": "Skmei 1343",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch6.jpg",
         "price": "700"
+    },
+    {
+        "id": 7,
+        "name": "Skmei 1162",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch7.jpg",
+        "price": "780"
+    },
+    {
+        "id": 8,
+        "name": "Skmei 1251",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch8.jpg",
+        "price": "800"
+    },
+    {
+        "id": 9,
+        "name": "Skmei 1312",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch9.jpg",
+        "price": "900"
+    },
+    {
+        "id": 10,
+        "name": "Skmei 9167",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch10.jpg",
+        "price": "1000"
     }
 ]
