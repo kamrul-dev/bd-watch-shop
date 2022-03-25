@@ -1,5 +1,5 @@
 import './Product.css';
-
+import { MdAddShoppingCart } from 'react-icons/md';
 import React from 'react';
 
 const Product = ({ product }) => {
@@ -12,7 +12,7 @@ const Product = ({ product }) => {
                 <p>Price: ${price}</p>
             </div>
             <button className='cart-btn'>
-                <p>Add To Cart</p>
+                <p>Add To Cart <MdAddShoppingCart className='cart-icon'/></p>
             </button>
         </div>
     );
