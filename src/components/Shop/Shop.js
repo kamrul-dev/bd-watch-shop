@@ -32,12 +32,21 @@ const Shop = () => {
             </div>
             <div className='cart-container'>
                 <h2>Selected Watches</h2>
-                {
-                    cart.map(product => <Cart
-                        key={product.id}
-                        product={product}
-                    ></Cart>)
-                }
+                <div className='cart-cont'>
+                    {
+                        cart.map(product => <Cart
+                            key={product.id}
+                            product={product}
+                        ></Cart>)
+                    }
+                </div>
+                <div>
+                    <button className='select-for-me'>SELECT 1 FOR ME</button>
+                </div>
+                <div>
+                    <button className='select-again'>SELECT AGAIN</button>
+                </div>
+
             </div>
         </div>
     );
