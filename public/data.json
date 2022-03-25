@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Curren Ladies Watch 1",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch1.png",
+        "price": "540"
+    },
+    {
+        "id": 2,
+        "name": "Curren Ladies Watch 2",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch2.png",
+        "price": "550"
+    },
+    {
+        "id": 3,
+        "name": "Curren Ladies Watch 3",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch3.png",
+        "price": "560"
+    },
+    {
+        "id": 4,
+        "name": "Curren Ladies Watch 4",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch4.png",
+        "price": "650"
+    },
+    {
+        "id": 5,
+        "name": "Curren Ladies Watch 5",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch5.png",
+        "price": "680"
+    },
+    {
+        "id": 6,
+        "name": "Curren Ladies Watch 6",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/watch-data/main/watch/watch6.png",
+        "price": "700"
+    }
+]
