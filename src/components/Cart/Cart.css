@@ -1,0 +1,27 @@
+.cart{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+.cart-info{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.cart-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.delete-btn{
+    border: none;
+    border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2px;
+    cursor: pointer;
+}
+.delete-btn:hover{
+    background-color: antiquewhite;
+}
