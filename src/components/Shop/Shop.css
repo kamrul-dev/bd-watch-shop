@@ -9,6 +9,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.cart-container{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px 15px;
+}
 @media screen and (max-width: 1100px) {
     .product-container{
         grid-template-columns: repeat(1, 1fr);
