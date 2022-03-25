@@ -13,6 +13,10 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 20px 15px;
 }
+.cart-container h2{
+    margin-bottom: 20px;
+    color: orange;
+}
 @media screen and (max-width: 1100px) {
     .product-container{
         grid-template-columns: repeat(1, 1fr);
