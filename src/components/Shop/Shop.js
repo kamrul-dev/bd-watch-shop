@@ -21,7 +21,7 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-            <div>
+            <div className='cart-container'>
                 <h2>Selected Watches</h2>
             </div>
         </div>
