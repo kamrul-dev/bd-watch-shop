@@ -15,8 +15,8 @@ const Blog = () => {
                 <p>A state that could  be changed in the application according to the user interaction. For this purpose, react has uesState hook. State has state value which can be changed, and has dispatch(special function) which takes action to update the value. We can say a useState hook returns  a state value and a function and it returns an array. By using the state function we can change the state value or set the state value in the react application.</p>
             </article>
             <article className='blog'>
-                <h2></h2>
-                <p></p>
+                <h2>Props vs State</h2>
+                <p>Props are read-only, it can not be changed and props can not be modified. Props the data parent component to child component and data flows unidirectionally. State changes can be asynchronous and State can be modified using this.setState. Data can be set and updated through this state. </p>
             </article>
         </div>
     );
