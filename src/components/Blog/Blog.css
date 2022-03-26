@@ -7,3 +7,6 @@
 .blog h2{
     margin: 10px 0px;
 }
+.blog p{
+    line-height: 30px;
+}
