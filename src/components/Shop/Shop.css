@@ -51,4 +51,16 @@
     .product-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .shop-container{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .product-container{
+        order: 2;
+    }
+    .cart-container{
+        order: 1;
+    }
 }
