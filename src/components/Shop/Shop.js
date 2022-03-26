@@ -19,8 +19,8 @@ const Shop = () => {
         setCart(newCart);
     }
 
+    // select 1 for me button handler
     const handleSelectOne = () => {
-        // cart.map(product => console.log(product.id));
         const selectedItem = cart[Math.floor(Math.random() * cart.length)];
         if (selectedItem) {
             setCart([]);
@@ -28,6 +28,10 @@ const Shop = () => {
             setCart(newCart);
         }
 
+    }
+    // select again button handler
+    const handleSelectAgain = () =>{
+        setCart([]);
     }
 
     return (
@@ -55,7 +59,7 @@ const Shop = () => {
                     <button onClick={handleSelectOne} className='select-for-me'>SELECT 1 FOR ME</button>
                 </div>
                 <div>
-                    <button className='select-again'>SELECT AGAIN</button>
+                    <button onClick={handleSelectAgain} className='select-again'>SELECT AGAIN</button>
                 </div>
 
             </div>
