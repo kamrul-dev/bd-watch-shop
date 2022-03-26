@@ -15,8 +15,13 @@ const Shop = () => {
     }, []);
 
     const handleAddToCart = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
+        if (cart.length < 4) {
+            const newCart = [...cart, product];
+            setCart(newCart);
+        }
+        else {
+            alert('You can not select more than 4 watches!!');
+        }
     }
 
     // select 1 for me button handler
@@ -30,7 +35,7 @@ const Shop = () => {
 
     }
     // select again button handler
-    const handleSelectAgain = () =>{
+    const handleSelectAgain = () => {
         setCart([]);
     }
 
